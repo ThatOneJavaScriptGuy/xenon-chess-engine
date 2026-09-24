@@ -25,11 +25,9 @@ stdin/stdout.
   name Hash value N`, `quit`, plus `d`/`eval` debug commands.
 
 This is a solid hobby-strength engine (rough estimate: 1800–2200 Elo range
-depending on time control) — not literally Stockfish-strength (Stockfish is
-the product of over a decade of work by hundreds of contributors, NNUE
-neural-network evaluation, and industrial-scale testing). But it's built the
+depending on time control) – It's not like the top engines (stockfish, lc0, torch, etc.). But it's built the
 same way real engines are: correct legal move generation, alpha-beta with
-modern pruning, and a real evaluation function.
+modern pruning, and a real evaluation function. It's biggest weakness is that, it can't play bullet chess really good, it can make alot of blunders and might even lose to some 1400-1600 elo engines in bullet.
 
 ## Building
 
